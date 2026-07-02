@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(sed 's/.*\\\\.//')",
+      "Bash(mkdir -p \"C:/Users/tangjianpeng/Desktop/AS/SplitFictionMd/GUI/Debug/Immediate\" \"C:/Users/tangjianpeng/Desktop/AS/SplitFictionMd/GUI/Debug/TogglesDevMenu\" \"C:/Users/tangjianpeng/Desktop/AS/SplitFictionMd/GUI/Debug/TemporalLog\" \"C:/Users/tangjianpeng/Desktop/AS/SplitFictionMd/GUI/Debug/PerformanceDevMenu\" \"C:/Users/tangjianpeng/Desktop/AS/SplitFictionMd/GUI/Debug/FunctionsDevMenu\" \"C:/Users/tangjianpeng/Desktop/AS/SplitFictionMd/GUI/Debug/CapabilityDevMenu\" && echo done)",
+      "Bash(cd \"C:/Users/tangjianpeng/Desktop/AS/SplitFictionMd/GUI\" && mkdir -p Menus MainMenu OptionsMenu MessageDialog GlobalHUD && ls)",
+      "Bash(cd \"C:/Users/tangjianpeng/Desktop/AS/SplitFictionMd\" && rm -f GUI.md && echo \"已删除旧 GUI.md\")"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\tangjianpeng\\Desktop\\AS\\SplitFictionMd\\GUI\\Debug",
+      "C:\\Users\\tangjianpeng\\Desktop\\AS\\SplitFictionMd\\GUI",
+      "C:\\Users\\tangjianpeng\\Desktop\\AS\\SplitFictionMd"
+    ]
+  }
+}
