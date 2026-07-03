@@ -1,12 +1,14 @@
 # Split Fiction — AS 脚本架构文档
 
-> 本文档描述 **Split Fiction** 的 AngelScript 脚本架构。源码路径：`C:\Users\tangjianpeng\Desktop\AS\SplitFiction`
+> 本文档描述 **Split Fiction** 的 AngelScript 脚本架构。源码路径：`AS\SplitFiction`
 >
 > 共 **15,814** 个 `.as` 文件。这是 Hazelight 基于 Unreal Engine + AngelScript 的 **Haze 引擎** 框架。
 
 ---
 
 ## 核心设计模式
+
+> 📐 **想先理解"为什么这样设计"？** 读 [Core/DesignPhilosophy.md](./Core/DesignPhilosophy.md) —— 4 大支柱（组合优于继承 / 行为与状态分离 / 有序帧管线 / 确定性联机）+ 一帧全局数据流。这是理解全部文档的钥匙。
 
 整套代码贯穿统一的模式：**Capability（能力）+ Component（组件）+ Data（数据资产）+ Widget（UI）+ Statics（静态工具）**。
 
@@ -49,16 +51,17 @@ SplitFiction/
 
 ## 模块文档索引
 
-| 模块 | 文件数 | 说明 | 文档 |
-|---|---|---|---|
-| **Core** | 513 | 引擎核心框架（相机/移动/玩家/UI 底层等） | [Core/](./Core/README.md) |
-| **Gameplay** | 831 | 通用玩法系统（AI/战斗/拾取/物理等） | [Gameplay.md](./Gameplay.md) |
-| **Animation** | 919 | 数据驱动动画（AnimInstance / Feature / Capability） | [Animation.md](./Animation.md) |
-| **Audio** | 1191 | SoundDef 三层音频定义体系 | [Audio.md](./Audio.md) |
-| **GUI** | 123 | 玩家界面 + 开发者调试菜单（DevMenu 工具链） | [GUI/](./GUI/README.md) |
-| **Editor** | 88 | 关卡制作工具、可视化器、校验器 | [Editor/](./Editor/README.md) |
-| **Effects / Environment / Examples** | 58 / 28 / 69 | 视觉特效 / 环境美术 / 示例代码 | [Effects-Environment-Examples.md](./Effects-Environment-Examples.md) |
-| **LevelSpecific** | 11,992 | 24 个关卡各自的招牌机制实现 | [LevelSpecific.md](./LevelSpecific.md) |
+| 模块                                 | 文件数       | 说明                                                | 文档                                                                 |
+| ------------------------------------ | ------------ | --------------------------------------------------- | -------------------------------------------------------------------- |
+| **Core**                             | 513          | 引擎核心框架（相机/移动/玩家/UI 底层等）            | [Core/](./Core/README.md)                                            |
+| **Gameplay**                         | 831          | 通用玩法系统（AI/战斗/拾取/物理等）                 | [Gameplay/](./Gameplay/README.md)                                    |
+| **Animation**                        | 919          | 数据驱动动画（AnimInstance / Feature / Capability） | [Animation.md](./Animation.md)                                       |
+| **Audio**                            | 1191         | SoundDef 三层音频定义体系                           | [Audio.md](./Audio.md)                                               |
+| **GUI**                              | 123          | 玩家界面 + 开发者调试菜单（DevMenu 工具链）         | [GUI/](./GUI/README.md)                                              |
+| **Editor**                           | 88           | 关卡制作工具、可视化器、校验器                      | [Editor/](./Editor/README.md)                                        |
+| **Effects / Environment**            | 58 / 28      | 视觉特效 / 环境美术                                  | [Effects-Environment-Examples.md](./Effects-Environment-Examples.md) |
+| **Examples**                         | 69           | 官方教学代码库（语言 / 框架 / 系统对接三层）        | [Examples.md](./Examples.md)                                          |
+| **LevelSpecific**                    | 11,992       | 24 个关卡各自的招牌机制实现                         | [LevelSpecific/](./LevelSpecific/README.md)                          |
 
 ---
 

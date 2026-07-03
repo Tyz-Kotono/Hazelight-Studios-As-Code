@@ -36,6 +36,7 @@
 
 | 文档 | 主题 |
 |---|---|
+| [DesignPhilosophy.md](./DesignPhilosophy.md) ⭐ | **设计哲学（先读这篇）**：4 大支柱 + 确定性联机第一性原理 + 一帧全局数据流 |
 | [SystemArchitecture.md](./SystemArchitecture.md) | **System 级骨架**：单例 5 大支柱与 4 类职责 |
 | [Communication.md](./Communication.md) | **模块间协作机制**：5 类机制使用量统计与主次 |
 
