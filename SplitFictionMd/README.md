@@ -59,7 +59,8 @@ SplitFiction/
 | **Audio**                            | 1191         | SoundDef 三层音频定义体系                           | [Audio.md](./Audio.md)                                               |
 | **GUI**                              | 123          | 玩家界面 + 开发者调试菜单（DevMenu 工具链）         | [GUI/](./GUI/README.md)                                              |
 | **Editor**                           | 88           | 关卡制作工具、可视化器、校验器                      | [Editor/](./Editor/README.md)                                        |
-| **Effects / Environment**            | 58 / 28      | 视觉特效 / 环境美术                                  | [Effects-Environment-Examples.md](./Effects-Environment-Examples.md) |
+| **Effects**                          | 58           | 视觉特效（运行时 VFX actor/组件）                    | [Effects.md](./Effects.md)                                           |
+| **Environment**                      | 28           | 环境美术 actor 库（光照/软体/水体/遮挡/可破坏）      | [Environment.md](./Environment.md)                                   |
 | **Examples**                         | 69           | 官方教学代码库（语言 / 框架 / 系统对接三层）        | [Examples.md](./Examples.md)                                          |
 | **LevelSpecific**                    | 11,992       | 24 个关卡各自的招牌机制实现                         | [LevelSpecific/](./LevelSpecific/README.md)                          |
 
